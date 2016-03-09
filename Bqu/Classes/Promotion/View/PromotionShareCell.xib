@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="338" id="KGk-i7-Jjw" customClass="PromotionShareCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="338"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="337"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-jS-CI4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="337"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="邀请好友拿现金框.png" translatesAutoresizingMaskIntoConstraints="NO" id="5TI-mu-C6x">
+                                <rect key="frame" x="10" y="18" width="300" height="319"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邀请好友拿现金" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9J-tZ-0KW">
+                                <rect key="frame" x="105" y="8" width="110" height="20"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Daz-Ei-tfU"/>
+                                    <constraint firstAttribute="width" constant="110" id="ydY-og-4uQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.14901960780000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购物还能领红包？接受我的邀请注册B区领取现金并购物，我们一起愉快购物开心拿红包！海淘？有B区就够了！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uu8-SH-qkv">
+                                <rect key="frame" x="20" y="33" width="280" height="43"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="47" id="Kz8-ws-3tp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gz-Od-o2B">
+                                <rect key="frame" x="20" y="91" width="280" height="43"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="Kxj-eM-erl"/>
+                                </constraints>
+                                <string key="text">这是我的邀请链接：http://www.bqu.com/Home/ReferrerMember/?rid=2667
+让我们一起嗨go世界！</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（友情提示：只能分享当前页面或以下专属二维码邀请好友注册并购物，才能获得B区送出的红包）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvi-lm-XCY">
+                                <rect key="frame" x="20" y="149" width="280" height="32"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="SWp-CI-r4U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.96470588239999999" green="0.14901960780000001" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I83-PH-TAq">
+                                <rect key="frame" x="29" y="191" width="80" height="80"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="二维码框.png" translatesAutoresizingMaskIntoConstraints="NO" id="TsX-SE-IR3">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="二维码.png" translatesAutoresizingMaskIntoConstraints="NO" id="t6j-xq-te4">
+                                        <rect key="frame" x="5" y="5" width="70" height="70"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="TsX-SE-IR3" firstAttribute="leading" secondItem="I83-PH-TAq" secondAttribute="leading" id="4kS-yQ-iqS"/>
+                                    <constraint firstItem="TsX-SE-IR3" firstAttribute="top" secondItem="I83-PH-TAq" secondAttribute="top" id="9Jg-NC-1BH"/>
+                                    <constraint firstAttribute="width" constant="80" id="Ov4-YO-4cg"/>
+                                    <constraint firstAttribute="height" constant="80" id="cvR-xu-a8q"/>
+                                    <constraint firstAttribute="trailing" secondItem="TsX-SE-IR3" secondAttribute="trailing" id="msv-Xl-fMK"/>
+                                    <constraint firstAttribute="bottom" secondItem="TsX-SE-IR3" secondAttribute="bottom" id="sb7-LI-2Ho"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzV-C8-g72">
+                                <rect key="frame" x="159" y="217" width="133" height="28"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="133" id="Unt-dd-sUH"/>
+                                    <constraint firstAttribute="height" constant="28" id="iKy-Zb-3YD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="点击复制，发送好友" backgroundImage="点击复制按钮.png"/>
+                                <connections>
+                                    <action selector="shareButtonWasClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="MUn-fu-6To"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击或长按保存图片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQe-l2-ack">
+                                <rect key="frame" x="22" y="279" width="94" height="12"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="2TX-Oe-JVY"/>
+                                    <constraint firstAttribute="height" constant="12" id="PX4-Ke-cRg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5TI-mu-C6x" secondAttribute="trailing" constant="10" id="534-Hf-LML"/>
+                            <constraint firstItem="ZzV-C8-g72" firstAttribute="centerY" secondItem="I83-PH-TAq" secondAttribute="centerY" id="8nw-1F-hj7"/>
+                            <constraint firstAttribute="trailing" secondItem="Uu8-SH-qkv" secondAttribute="trailing" constant="20" id="AN4-aA-66c"/>
+                            <constraint firstItem="ZzV-C8-g72" firstAttribute="leading" secondItem="I83-PH-TAq" secondAttribute="trailing" constant="50" id="DFp-24-51M"/>
+                            <constraint firstItem="GQe-l2-ack" firstAttribute="centerX" secondItem="I83-PH-TAq" secondAttribute="centerX" id="HD7-jj-2F9"/>
+                            <constraint firstAttribute="trailing" secondItem="9gz-Od-o2B" secondAttribute="trailing" constant="20" id="IX4-Bv-iB8"/>
+                            <constraint firstAttribute="bottom" secondItem="5TI-mu-C6x" secondAttribute="bottom" id="JWo-4o-Nah"/>
+                            <constraint firstItem="9gz-Od-o2B" firstAttribute="top" secondItem="Uu8-SH-qkv" secondAttribute="bottom" constant="15" id="Nui-oW-n55"/>
+                            <constraint firstItem="k9J-tZ-0KW" firstAttribute="top" secondItem="h6b-jS-CI4" secondAttribute="top" constant="8" id="U62-yz-fN5"/>
+                            <constraint firstAttribute="trailing" secondItem="Yvi-lm-XCY" secondAttribute="trailing" constant="20" id="USI-AR-Ld6"/>
+                            <constraint firstItem="I83-PH-TAq" firstAttribute="top" secondItem="Yvi-lm-XCY" secondAttribute="bottom" constant="10" id="Yw1-63-4iz"/>
+                            <constraint firstItem="Yvi-lm-XCY" firstAttribute="top" secondItem="9gz-Od-o2B" secondAttribute="bottom" constant="15" id="Zvb-fK-jMH"/>
+                            <constraint firstItem="Uu8-SH-qkv" firstAttribute="leading" secondItem="h6b-jS-CI4" secondAttribute="leading" constant="20" id="epT-wa-hm6"/>
+                            <constraint firstItem="Uu8-SH-qkv" firstAttribute="top" secondItem="k9J-tZ-0KW" secondAttribute="bottom" constant="5" id="g7f-20-9nk"/>
+                            <constraint firstItem="5TI-mu-C6x" firstAttribute="top" secondItem="h6b-jS-CI4" secondAttribute="top" constant="18" id="ibA-pb-Z4b"/>
+                            <constraint firstItem="k9J-tZ-0KW" firstAttribute="centerX" secondItem="h6b-jS-CI4" secondAttribute="centerX" id="kIC-SP-964"/>
+                            <constraint firstItem="GQe-l2-ack" firstAttribute="top" secondItem="I83-PH-TAq" secondAttribute="bottom" constant="8" id="kfF-na-sS0"/>
+                            <constraint firstItem="5TI-mu-C6x" firstAttribute="leading" secondItem="h6b-jS-CI4" secondAttribute="leading" constant="10" id="mZe-fG-AV8"/>
+                            <constraint firstItem="9gz-Od-o2B" firstAttribute="leading" secondItem="h6b-jS-CI4" secondAttribute="leading" constant="20" id="n8n-WB-rgP"/>
+                            <constraint firstItem="Yvi-lm-XCY" firstAttribute="leading" secondItem="h6b-jS-CI4" secondAttribute="leading" constant="20" id="rM7-8O-9Vv"/>
+                            <constraint firstItem="I83-PH-TAq" firstAttribute="leading" secondItem="h6b-jS-CI4" secondAttribute="leading" constant="29" id="ygL-6g-zpk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="h6b-jS-CI4" secondAttribute="trailing" id="3Yi-hB-HbU"/>
+                    <constraint firstItem="h6b-jS-CI4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PHf-TU-bXJ"/>
+                    <constraint firstAttribute="bottom" secondItem="h6b-jS-CI4" secondAttribute="bottom" id="d2d-zI-BuO"/>
+                    <constraint firstItem="h6b-jS-CI4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="zoO-dN-YmD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="qrCodeImageView" destination="t6j-xq-te4" id="Czb-tu-vXy"/>
+                <outlet property="qrCodeView" destination="I83-PH-TAq" id="uGv-mF-5Sz"/>
+                <outlet property="shareButton" destination="ZzV-C8-g72" id="YN6-Qz-QcI"/>
+                <outlet property="shareUrlLabel" destination="9gz-Od-o2B" id="AiO-4V-4iY"/>
+                <outlet property="tipsIndoLabel" destination="Uu8-SH-qkv" id="VsL-hv-qUy"/>
+            </connections>
+            <point key="canvasLocation" x="422" y="436"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="二维码.png" width="80" height="80"/>
+        <image name="二维码框.png" width="94" height="91"/>
+        <image name="点击复制按钮.png" width="133" height="28"/>
+        <image name="邀请好友拿现金框.png" width="355" height="244"/>
+    </resources>
+</document>
